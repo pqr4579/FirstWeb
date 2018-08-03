@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<title>회원가입</title>
+<meta charset="UTF-8">
+
+<head>
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <style>
+    body
+    {
+
+      max-width:500px;
+
+    }
+    .container
+    {
+      font-weight: bold;
+      font-family: sans-serif;
+      max-width: 600px;
+      position: absolute;
+      right:35%;
+    }
+    .placeholder
+    {
+      font-size:8px;
+    }
+
+    .container input
+    {
+      margin-bottom: 20px;
+    }
+
+    .form-control
+    {
+      max-width:250px;
+
+    }
+    .profile{
+  width:200px;
+  height:200px;
+  z-index: 2;
+}  
+.well
+{
+  z-index:1;
+}
+
+
+  </style>
+</head>
+<body>
+  <div class="container">
+    <a href="main.html"><img src="img/profile.jpg" class="profile"></a>
+    <h1 class="well">회원가입</h1>
+    <div class="col-lg-12 well">
+      <form action="" method="post">
+        <p>아이디</p>
+        <input type="text" name="id" class=" form-control" placeholder="">
+        <div class="col-sm-6">
+          <p>비밀번호</p>
+          <input type="passward" name="passward" class=" form-control" placeholder="">
+          <p>비밀번호</p>
+        <input type="passward" name="passward" class=" form-control" placeholder="">
+        </div>
+      </form>
+      <div class="form-group">
+        <label>이름</label>
+        <input type="text" name="name" class="form-control"
+        placeholder="">
+        <p>주소</p>
+        <input type="text" name="name"class=" form-control" placeholder="">
+        <p>상세 주소</p>
+        <input type="text" name="name"class=" form-control" placeholder="">
+      </div>
+      <div class="col-sm-6 form-group">
+        <label>전화번호</label>
+        <br>
+        <select class="selectpicker" name="phone">
+          <optgroup label="지역번호">
+            <option>02</option>
+            <option>051</option>
+            <option>053</option>
+            <option>062</option>
+            <option>042</option>
+            <option>052</option>
+            <option>044</option>
+            <option>063</option>
+            <option>061</option>
+            <option>054</option>
+            <option>055</option>
+          </optgroup>
+
+
+  </body>
+</html>
